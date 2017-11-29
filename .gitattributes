@@ -1,0 +1,11 @@
+*.txt text eol=lf
+*.php text eol=lf
+*.md text eol=lf
+*.html text eol=lf
+*.yml text eol=lf
+sasige/bin/sasige text eol=lf
+*.png binary
+*.jpg binary
+*.gif binary
+*.ttf binary
+*.otf binary

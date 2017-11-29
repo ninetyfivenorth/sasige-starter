@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    font-weight: normal;
+    font-style: normal;
+    src: url($themeUrl + 'fonts/BebasNeue Regular.otf'),
+    url($themeUrl + 'fonts/BebasNeue Regular.otf');
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    font-style: normal;
+    src: url($themeUrl + 'fonts/BebasNeue Bold.otf'),
+    url($themeUrl + 'fonts/BebasNeue Bold.otf');
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333333;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+a, a:hover, a:active, a:visited {
+    color: #0093ff;
+}
+
+header {
+    background: #0093ff;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px black;
+    .page {
+        text-align: center;
+    }
+}
+
+nav {
+    background: #f5f5f5;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    ul {
+        list-style-type: none;
+        li {
+            display: inline-block;
+        }
+    }
+}
+
+.page {
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    max-width: 900px;
+    min-width: 500px;
+}
