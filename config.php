@@ -12,3 +12,4 @@ Config::setPagesFolder("pages"); // folder that contains the pages files
 Config::setStaticFolder("static"); // folder that contains the static files that will be merged into the output folder
 Config::setHideIndexHtmlInUrls(false); // if true than the string "index.html" will be removed when generate page links
 Config::setServerPort(4433); // server port when use "sasige serve"
+Config::setHooksFolder("hooks"); // hooks for generation progress
